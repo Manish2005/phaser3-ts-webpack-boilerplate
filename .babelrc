@@ -1,5 +1,6 @@
 {
   "presets": [
+    "@babel/typescript",
     ["@babel/env", {
       "targets": {
         "browsers": [
@@ -10,5 +11,5 @@
       },
       "modules": false
     }]
-  ],
+  ]
 }

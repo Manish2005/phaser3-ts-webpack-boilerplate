@@ -1,6 +1,8 @@
-import Phaser from "phaser";
-import logoImg from "./assets/logo.png";
 
+/// <reference path="./types/types.d.ts" />
+/// <reference path="./types/phaser.d.ts" />
+
+import * as logoImg from './assets/logo.png';
 const config = {
   type: Phaser.AUTO,
   parent: "phaser-example",
@@ -11,6 +13,7 @@ const config = {
     create: create
   }
 };
+
 
 const game = new Phaser.Game(config);
 
